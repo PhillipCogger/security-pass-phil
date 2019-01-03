@@ -15,9 +15,8 @@
     "page.security-pass-phil",
     "page.work-details",
     "page.reason-for-pass",
-    "page.your-form-has-been-sent",
-    "page.check-your-answers"
-
+    "page.check",
+    "page.your-form-has-been-sent"
   ],
   "url": "/"
 }

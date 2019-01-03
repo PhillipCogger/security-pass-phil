@@ -1,11 +1,11 @@
 {
   "_id": "page.who-are-you-visiting",
   "_type": "page.form",
-  "body": "Full name",
   "components": [
     {
       "_id": "page.who-are-you-visiting--text.auto_name__7",
       "_type": "text",
+      "label": "Person",
       "name": "auto_name__7",
       "repeatable": true
     }

@@ -15,8 +15,11 @@
     {
       "_id": "page.work-details--number.auto_name__3",
       "_type": "number",
-      "label": "What is your telephone number? (optional)",
+      "label": "What is your telephone number?",
       "name": "auto_name__3",
+      "validation": {
+        "required": false
+      },
       "widthClassInput": "10"
     }
   ],
