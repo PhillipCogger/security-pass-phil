@@ -1,0 +1,55 @@
+{
+  "_id": "page.reason-for-pass",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.reason-for-pass--radios.auto_name__5",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.reason-for-pass--radios.auto_name__5--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Permanent staff/fixed term contract",
+          "value": "auto_value__1"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.reason-for-pass--radios.auto_name__5--radio.auto_value__2",
+          "_type": "radio",
+          "label": "Contractor",
+          "value": "auto_value__2"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.reason-for-pass--radios.auto_name__5--radio.auto_value__3",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.reason-for-pass--radios.auto_name__5--radio.auto_value__3--textarea.auto_name__6",
+            "_type": "textarea",
+            "label": "What is the reason for your visit?",
+            "name": "auto_name__6",
+            "repeatable": true
+          },
+          "label": "Visitor",
+          "show": true,
+          "value": "auto_value__3"
+        }
+      ],
+      "legend": "What is the reason for requesting a security pass?",
+      "name": "auto_name__5"
+    }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.a-replacement-pass",
+    "page.who-are-you-visiting"
+  ],
+  "url": "reason-for-pass"
+}
