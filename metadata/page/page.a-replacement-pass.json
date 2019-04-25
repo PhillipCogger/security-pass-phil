@@ -20,15 +20,15 @@
         }
       ],
       "legend": "Is this a replacement pass?",
-      "name": "auto_name__8"
+      "name": "auto_name__8",
+      "show": {
+        "identifier": "auto_name__5",
+        "operator": "is",
+        "value": "auto_value__1"
+      }
     }
   ],
   "enableSteps": true,
-  "show": {
-    "identifier": "auto_name__5",
-    "operator": "is",
-    "value": "auto_value__1"
-  },
   "steps": [
     "page.reasons-for-replacing-pass"
   ],
