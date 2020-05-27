@@ -25,6 +25,9 @@
         "identifier": "pass-reason",
         "operator": "is",
         "value": "permanent_fixed"
+      },
+      "validation": {
+        "required": false
       }
     }
   ],
