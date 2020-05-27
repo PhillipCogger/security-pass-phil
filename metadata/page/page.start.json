@@ -14,7 +14,9 @@
   "steps": [
     "page.security-pass-phil",
     "page.work-details",
-    "page.reason-for-pass",
+    "page.pass-reason",
+    "page.replacement-pass",
+    "page.replacement-reasons",
     "page.check",
     "page.your-form-has-been-sent"
   ],
