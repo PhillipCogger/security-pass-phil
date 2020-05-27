@@ -45,7 +45,7 @@
       "legend": "What is the reason for requesting a security pass?",
       "name": "pass-reason",
       "validation": {
-        "required": false
+        "required": true
       }
     }
   ],
